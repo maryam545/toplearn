@@ -210,3 +210,13 @@ body {
   width: 40px;
   margin-top: -12px;
 }
+.image-slider {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image-slider img {
+  width: 95%;
+  border-radius: 20px;
+}
