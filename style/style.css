@@ -18,6 +18,7 @@ body {
 .container {
   width: 1300px;
   margin: 0 auto;
+  display: flex;
 }
 .section_nav {
   display: flex;
@@ -155,6 +156,11 @@ body {
   margin: 4px;
   position: relative;
 }
+.main-page {
+  display: flex;
+  background-color: #fafafa;
+  box-shadow: 0 0 8px #727272;
+}
 .main-page .main-menu ul li a {
   display: inline-block;
   padding: 15px 8px;
@@ -187,4 +193,20 @@ body {
   color: black;
   font-size: 19px;
   padding: 10px 5px;
+}
+.flex {
+  display: flex;
+}
+.star {
+  margin-top: 20px;
+  margin-right: 380px;
+}
+
+.star a {
+  display: flex;
+  justify-content: flex-end;
+}
+.star img {
+  width: 40px;
+  margin-top: -12px;
 }
