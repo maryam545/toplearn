@@ -276,6 +276,7 @@ body {
 .tag-a-title {
   position: relative;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .tag-a-title a {
   margin-right: 68px;
@@ -292,4 +293,16 @@ body {
   top: 22px;
   content: "";
   border-radius: 10px;
+}
+.row1-card {
+  width: 90%;
+  display: flex;
+  /* margin-left: 35px; */
+  margin-right: 60px;
+}
+.box {
+  width: 25%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 15px;
 }
