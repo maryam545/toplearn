@@ -205,6 +205,8 @@ body {
 .star a {
   display: flex;
   justify-content: flex-end;
+  color: #00c3ff;
+  font-size: 15px;
 }
 .star img {
   width: 40px;
@@ -219,4 +221,55 @@ body {
 .image-slider img {
   width: 95%;
   border-radius: 20px;
+}
+.The-last-course {
+  position: relative;
+  margin-top: 60px;
+  /* display: flex; */
+}
+.h2 {
+  /* margin-top: 80px; */
+  font-size: 24px;
+  padding-right: 140px;
+  color: #000000;
+  font-weight: 500px;
+}
+.header-h2 {
+  display: flex;
+  justify-content: space-between;
+}
+.header-h2::before {
+  position: absolute;
+  width: 110px;
+  height: 8px;
+  background-color: #bbe7f5;
+  right: 0;
+  top: 8px;
+  content: "";
+  border-radius: 10px;
+}
+.header-h2::after {
+  position: absolute;
+  width: 40px;
+  height: 8px;
+  background-color: #00c3ff;
+  right: 68px;
+  top: 8px;
+  content: "";
+  border-radius: 10px;
+}
+
+.h2-left a {
+  margin-left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 20px;
+}
+.h2-left a:hover {
+  color: #00c3ff;
+}
+.h2-left img {
+  padding: 5px;
 }
