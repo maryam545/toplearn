@@ -4,11 +4,16 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+@font-face {
+  font-family: vazir;
+  src: url(../font/fonts/ttf/Vazirmatn-Black.ttf);
+}
 ul {
   list-style-type: none;
 }
 body {
   background-color: rgb(255, 255, 255);
+  font-family: vazir;
 }
 .header {
   background-image: url(../img/Jowhareh_galleries_poster_8de2ee9f-b0fb-46d1-b3e1-783a4283a968.jpeg);
@@ -165,6 +170,7 @@ body {
   display: inline-block;
   padding: 15px 8px;
   color: black;
+  font-size: 12px;
   /* list-style-type: circle; */
 }
 .main-page .main-menu ul li a:hover {
@@ -191,7 +197,7 @@ body {
 }
 .main-page .main-menu ul li ul li a {
   color: black;
-  font-size: 19px;
+  font-size: 10px;
   padding: 10px 5px;
 }
 .flex {
@@ -206,7 +212,7 @@ body {
   display: flex;
   justify-content: flex-end;
   color: #00c3ff;
-  font-size: 15px;
+  font-size: 12px;
 }
 .star img {
   width: 40px;
@@ -229,10 +235,11 @@ body {
 }
 .h2 {
   /* margin-top: 80px; */
-  font-size: 24px;
-  padding-right: 140px;
+  font-size: 20px;
+  padding-right: 130px;
   color: #000000;
-  font-weight: 500px;
+  /* font-weight: 500px; */
+  margin-top: -4px;
 }
 .header-h2 {
   display: flex;
@@ -286,11 +293,11 @@ body {
 }
 .tag-a-title::after {
   position: absolute;
-  width: 145px;
+  width: 165px;
   height: 3px;
   background-color: #00c3ff;
   right: 68px;
-  top: 22px;
+  top: 32px;
   content: "";
   border-radius: 10px;
 }
