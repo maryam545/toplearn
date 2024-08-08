@@ -79,8 +79,9 @@ body {
 .main-header {
   width: 60%;
   height: 300px;
-  margin-right: 260px;
-  margin-top: 100px;
+  /* margin-right: 260px; */
+  /* margin-top: 100px; */
+  margin: 100px auto;
 }
 .main-header h1 {
   text-align: center;
