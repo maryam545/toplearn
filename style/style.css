@@ -8,7 +8,7 @@ ul {
   list-style-type: none;
 }
 body {
-  background-color: rgb(225, 229, 233);
+  background-color: rgb(255, 255, 255);
 }
 .header {
   background-image: url(../img/Jowhareh_galleries_poster_8de2ee9f-b0fb-46d1-b3e1-783a4283a968.jpeg);
@@ -293,4 +293,68 @@ body {
   top: 22px;
   content: "";
   border-radius: 10px;
+}
+.cards {
+  /* background-color: blueviolet; */
+  height: 500px;
+}
+.row1 {
+  height: 350px;
+  /* background-color: darkblue; */
+  width: 100%;
+  display: flex;
+}
+.card1 {
+  width: 23%;
+  height: 350px;
+  background-color: #f1f1f1;
+  margin-right: 22px;
+  box-shadow: -1px 4px 1px #c2c2c2;
+}
+.card1 img {
+  height: 210px;
+  width: 100%;
+}
+.card1 h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.card1 h3:hover {
+  color: #00c3ff;
+}
+.time-and-name {
+  margin-right: 8px;
+}
+.name {
+  display: flex;
+  height: 30px;
+  width: 292px;
+  border-bottom: 2px solid #d3d3d3;
+  /* color: #727272; */
+  /* background-color: rebeccapurple; */
+}
+.name a {
+  color: #727272;
+}
+.name a:hover {
+  color: #19c502;
+}
+.name img {
+  width: 15px;
+  height: 15px;
+  margin-left: 6px;
+}
+.time {
+  padding: 7px;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.time1 {
+  color: #00c3ff;
+}
+.time2 {
+  color: #19c502;
 }
