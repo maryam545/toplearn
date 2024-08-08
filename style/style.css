@@ -359,3 +359,10 @@ body {
 .time2 {
   color: #19c502;
 }
+.row2 {
+  margin-top: 24px;
+  height: 350px;
+  /* background-color: darkblue; */
+  width: 100%;
+  display: flex;
+}
